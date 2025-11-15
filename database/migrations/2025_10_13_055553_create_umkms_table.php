@@ -22,6 +22,8 @@ return new class extends Migration
             $table->text('description');
             $table->enum('type', ['Tetap', 'Keliling']);
             $table->text('gmaps_link')->nullable();
+            $table->decimal('latitude')->nullable();
+            $table->decimal('longitude')->nullable();
             $table->text('address')->nullable();
             $table->char('phone_number', 15)->nullable();
             $table->string('open_days')->nullable(); //note: dropdown hardcode value

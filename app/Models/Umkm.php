@@ -24,6 +24,8 @@ class Umkm extends Model
         'description',
         'type',
         'gmaps_link',
+        'latitude',
+        'longitude',
         'address',
         'phone_number',
         'open_days',
